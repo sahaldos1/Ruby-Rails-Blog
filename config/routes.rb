@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
 
   #tells rails that we have a resource named articles
+  root to: 'articles#index'
   resources :articles
 end
